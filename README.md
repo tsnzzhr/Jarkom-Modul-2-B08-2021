@@ -70,4 +70,29 @@ Foosha : Internet-Source
 
 ![](img/no4%20(2).jpg)
 
-5. 
+5. Supaya tetap bisa menghubungi Franky jika server EniesLobby rusak, maka buat Water7 sebagai DNS Slave untuk domain utama 
+
+### Pada Water7 di setting menjadi type slave
+
+![](img/no5.jpg)
+
+### Pada Enieslobby di named.conf.local allow notify
+
+![](img/no5%20(2).jpg)
+
+6. Setelah itu terdapat subdomain mecha.franky.yyy.com dengan alias www.mecha.franky.yyy.com yang didelegasikan dari EniesLobby ke Water7 dengan IP  menuju ke Skypie dalam folder sunnygo.
+
+### Konfigurasi pada node EniesLobby
+
+![](img/no6.jpg)
+
+### Konfigurasi pada node Water7
+
+![](img/no6%20(2).jpg)
+
+7.	Untuk memperlancar komunikasi Luffy dan rekannya, dibuatkan subdomain melalui Water7  dengan nama general.mecha.franky.yyy.com dengan alias www.general.mecha.franky .yyy.com yang mengarah ke Skypie.
+
+### Pembuatan domain general.mecha.franky.b08.com pada Water7
+
+![](img/no7.jpg)
+
