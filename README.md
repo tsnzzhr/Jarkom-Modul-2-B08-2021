@@ -55,6 +55,19 @@ Foosha : Internet-Source
 
 ![image](https://user-images.githubusercontent.com/69724694/139507134-ddb82cd9-d19e-4156-97a3-78ce4ef687d4.png)
 
+3.  Setelah itu buat subdomain super.franky.yyy.com dengan alias www.super.franky.yyy.com yang diatur DNS nya di EniesLobby dan mengarah ke Skypie.
 
+### Mendefinisikan super.franky.b08.com di EniesLobby dan aliasnya menggunakan command dan syntax yang digaris bawah berwarna biru
+![](img/no3.jpg)
 
-4. 
+4. Buat juga reverse domain untuk domain utama.
+   
+### Tambahkan konfigurasi zone untuk reverse domain pada file named.conf.local
+
+![](img/no4.jpg)
+
+### Lakukan PTR ke reverse domain yang telah dibuat
+
+![](img/no4%20(2).jpg)
+
+5. 
